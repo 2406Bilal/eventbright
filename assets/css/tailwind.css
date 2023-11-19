@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --primary-dark-1: 247 19% 26%;
+    --primary-grey-1: 260 23% 97%;
+
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+ 
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+ 
+    --border: 213.3 96.9% 87.3%;
+    --input: 213.3 96.9% 87.3%;
+
+    --background1: 6.7 100% 98.2%;
+    --background2: 225 25% 96.9%;
+    --background3: 150 25% 96.9%;
+    --background4: 337.5 100% 98.4%;
+    --bgicon: 260 23.1% 97.5%;
+    --tagsbg:260 23.1% 97.5%;
+    --textorg:232.5 9.8% 48.2%;
+    --textli:227.9 75.5% 55.1%;
+
+
+
+    --ring: 213.1 93.9% 67.8%;
+
+    --background: 214.3 0% 100%;;
+    --foreground: 226.2 57% 21%;
+
+    --muted: 214.3 94.6% 92.7%;
+    --muted-foreground: 217.2 91.2% 59.8%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 226.2 57% 21%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 226.2 57% 21%;
+
+    --primary: 224.4 64.3% 32.9%;
+    --primary-foreground: 213.8 100% 96.9%;
+
+    --secondary: 16.1 89.1% 43.3%;
+    --secondary-foreground: 19.3 71% 65.5%;
+
+    --accent: 214.3 94.6% 92.7%;
+    --accent-foreground: 224.4 64.3% 32.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 213.8 100% 96.9%;
+}
+
+.dark {
+    --border: 225.9 70.7% 40.2%;
+    --input: 225.9 70.7% 40.2%;
+
+    --ring: 225.9 70.7% 40.2%;
+
+    --background: 225.9 70.7% 40.2%;
+    --foreground: 213.8 100% 96.9%;
+
+    --muted: 225.9 70.7% 40.2%;
+    --muted-foreground: 213.1 93.9% 67.8%;
+
+    --popover: 226.2 57% 21%;
+    --popover-foreground: 213.8 100% 96.9%;
+
+    --card: 226.2 57% 21%;
+    --card-foreground: 213.8 100% 96.9%;
+
+    --primary: 213.8 100% 96.9%;
+    --primary-foreground: 224.4 64.3% 32.9%;
+
+    --secondary: 225.9 70.7% 40.2%;
+    --secondary-foreground: 213.8 100% 96.9%;
+
+    --accent: 225.9 70.7% 40.2%;
+    --accent-foreground: 213.8 100% 96.9%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 213.8 100% 96.9%;
+}
+
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
